@@ -1,22 +1,29 @@
-# python_Factorial_Calculator
-This simple Python program calculates the factorial of a given number entered by the user
-Factorial Calculator in Python
-This simple Python program calculates the factorial of a given number entered by the user.
+# Factorial Calculator in Python
+
+This simple Python program calculates the factorial of a given number entered by the user.  
 It demonstrates basic concepts of:
+- Functions
+- Loops (`for` loop)
+- Error handling with `try` / `except`
+- User input validation
 
-Functions
-Loops (for loop)
-User input validation
-How It Works
-The user is prompted to enter a number.
-The program checks if the input is a valid integer.
-If valid:
-The program calculates the factorial of the number using a loop.
-Displays the result.
-If invalid (non-numeric or negative):
-Displays an appropriate error message.
+---
 
-##Code Example
+## How It Works
+
+1. The user is prompted to enter a number.
+2. The program checks if the input is a valid integer.
+3. If valid:
+   - The program calculates the factorial of the number using a loop.
+   - Displays the result.
+4. If invalid (non-numeric or negative):
+   - Displays an appropriate error message.
+
+---
+
+## Code Example
+
+```python
 def calculate_number_factor(num):
     try:
         num = int(num)
